@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "305895811475",
+    "project_id": "fhi-nest-system",
+    "storage_bucket": "fhi-nest-system.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:305895811475:android:520ab8e78ed119617d2066",
+        "android_client_info": {
+          "package_name": "com.nestsystem.fhinest"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "305895811475-lhprvson64cb5u0t04ek5pbf9cr4khij.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBYOS_5RB6fYVttEfrkV0o5latXa0cBORs"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "305895811475-lhprvson64cb5u0t04ek5pbf9cr4khij.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

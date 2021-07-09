@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/item_beranda_fhi"
+        android:title="FHI"
+        android:icon="@drawable/icon_fhi"/>
+
+    <item
+        android:id="@+id/item_beranda_nest"
+        android:title="NEST"
+        android:icon="@drawable/icon_nest"/>
+
+    <item
+        android:id="@+id/item_beranda_news"
+        android:title="NEWS"
+        android:icon="@drawable/icon_news"/>
+    <item
+        android:id="@+id/item_login"
+        android:title="Login Akun"
+        android:icon="@drawable/icon_login"/>
+
+</menu>

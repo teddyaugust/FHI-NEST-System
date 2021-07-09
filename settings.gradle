@@ -1,0 +1,2 @@
+rootProject.name = "FHI NEST System"
+include ':app'
