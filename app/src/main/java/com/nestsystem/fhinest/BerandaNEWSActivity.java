@@ -2,7 +2,6 @@ package com.nestsystem.fhinest;
 
 import androidx.annotation.NonNull;
 import androidx.appcompat.app.AppCompatActivity;
-
 import android.annotation.SuppressLint;
 import android.app.Activity;
 import android.app.AlertDialog;
@@ -18,8 +17,9 @@ import android.webkit.WebResourceRequest;
 import android.webkit.WebSettings;
 import android.webkit.WebView;
 import android.webkit.WebViewClient;
-
 import com.google.android.material.bottomnavigation.BottomNavigationView;
+
+//FHI NEST Apps created by Teddy August
 
 public class BerandaNEWSActivity extends AppCompatActivity {
 
@@ -52,7 +52,7 @@ public class BerandaNEWSActivity extends AppCompatActivity {
         {
             @Override
             public boolean shouldOverrideUrlLoading(WebView wv, String url) {
-                if(url.startsWith("tel:") || url.startsWith("whatsapp:") || url.startsWith("tg:") || url.startsWith("facebook:") ) {
+                if(url.startsWith("tel:") || url.startsWith("whatsapp:") || url.startsWith("snssdk1180:") || url.startsWith("tg:") || url.startsWith("zoomus:") || url.startsWith("twitter:") || url.startsWith("telegram:") || url.startsWith("fb:") ||url.startsWith("facebook:") ) {
                     Intent intent = new Intent(Intent.ACTION_VIEW);
                     intent.setData(Uri.parse(url));
                     startActivity(intent);

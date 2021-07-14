@@ -21,6 +21,8 @@ import android.webkit.WebViewClient;
 
 import com.google.android.material.bottomnavigation.BottomNavigationView;
 
+//FHI NEST Apps created by Teddy August
+
 public class BerandaNESTActivity extends AppCompatActivity {
 
     private WebView webView;
@@ -52,7 +54,7 @@ public class BerandaNESTActivity extends AppCompatActivity {
         {
             @Override
             public boolean shouldOverrideUrlLoading(WebView wv, String url) {
-                if(url.startsWith("tel:") || url.startsWith("whatsapp:") || url.startsWith("tg:") || url.startsWith("facebook:") ) {
+                if(url.startsWith("tel:") || url.startsWith("whatsapp:") || url.startsWith("snssdk1180:") || url.startsWith("tg:") || url.startsWith("zoomus:") || url.startsWith("twitter:") || url.startsWith("telegram:") || url.startsWith("fb:") ||url.startsWith("facebook:") ) {
                     Intent intent = new Intent(Intent.ACTION_VIEW);
                     intent.setData(Uri.parse(url));
                     startActivity(intent);
